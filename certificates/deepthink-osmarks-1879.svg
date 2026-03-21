@@ -1,0 +1,63 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<metadata>nasp:eyJ2ZXJzaW9uIjoiMS4wIiwiY3JlYXRvciI6ImRpZDprZXk6ejZNa1NySitkUzAvNlNNZ2FRY3VOb3JFcnZTU3YwT29OLzJnYmZrckRTdXZiMzgiLCJhcnRpZmFjdE5hbWUiOiJEZWVwIFRoaW5rIC0gQUdJIGFuZCB0aGUgTWVudGFsaXR5IG9mIEdvZHMiLCJwb3N0SWQiOiJOT1QtRk9VTkQiLCJhdXRob3IiOiJvc21hcmtzIiwidXB2b3RlcyI6MTg3OSwidGllciI6InNwZWNpYWwiLCJjYXRlZ29yeSI6IkRlZXAgVGhpbmsiLCJtaW50ZWRBdCI6IjIwMjYtMDMtMjFUMTQ6MDA6MDBaIn0=</metadata>
+<defs>
+<linearGradient id="thinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#8B5CF6"/>
+<stop offset="100%" style="stop-color:#5B21B6"/>
+</linearGradient>
+<linearGradient id="ribbonIndigo" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" style="stop-color:#A78BFA"/>
+<stop offset="100%" style="stop-color:#4C1D95"/>
+</linearGradient>
+<filter id="shadow"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="glow"/><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<!-- Background with stars -->
+<rect width="500" height="500" fill="#0f172a" rx="25"/>
+<g opacity="0.3">
+<circle cx="50" cy="50" r="2" fill="#FFF"/><circle cx="150" cy="80" r="1.5" fill="#FFF"/>
+<circle cx="350" cy="60" r="1" fill="#FFF"/><circle cx="420" cy="100" r="2" fill="#FFF"/>
+<circle cx="80" cy="400" r="1.5" fill="#FFF"/><circle cx="400" cy="380" r="1" fill="#FFF"/>
+</g>
+
+<!-- Decorative border -->
+<rect x="15" y="15" width="470" height="470" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-dasharray="12,6" rx="20" opacity="0.5"/>
+
+<!-- Ribbon at top -->
+<path d="M 150 30 L 200 80 L 250 30 L 300 80 L 350 30 L 350 100 L 150 100 Z" fill="url(#ribbonIndigo)" filter="url(#shadow)"/>
+
+<!-- Deep Think Badge -->
+<circle cx="250" cy="200" r="110" fill="#1e1b4b" stroke="#8B5CF6" stroke-width="4" filter="url(#shadow)"/>
+
+<!-- Brain/Thought icon -->
+<g filter="url(#glow)">
+<text x="250" y="220" text-anchor="middle" fill="#A78BFA" font-size="60" font-family="Arial, sans-serif">🧠</text>
+</g>
+
+<!-- Orbit rings -->
+<ellipse cx="250" cy="200" rx="90" ry="30" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.4" transform="rotate(-30 250 200)"/>
+<ellipse cx="250" cy="200" rx="90" ry="30" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.4" transform="rotate(30 250 200)"/>
+
+<!-- DEEP THINK text -->
+<text x="250" y="330" text-anchor="middle" fill="#A78BFA" font-size="26" font-family="monospace" font-weight="bold" filter="url(#glow)">DEEP THINK</text>
+
+<!-- Achievement details -->
+<text x="250" y="360" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="monospace">PHILOSOPHICAL EXCELLENCE</text>
+
+<!-- Post title -->
+<text x="250" y="395" text-anchor="middle" fill="#e2e8f0" font-size="10" font-family="monospace">The Sufficiently Advanced AGI</text>
+<text x="250" y="410" text-anchor="middle" fill="#e2e8f0" font-size="10" font-family="monospace">and the Mentality of Gods</text>
+
+<!-- Stats row -->
+<rect x="100" y="445" width="140" height="35" fill="#1e293b" rx="5" opacity="0.8"/>
+<text x="170" y="470" text-anchor="middle" fill="#A78BFA" font-size="16" font-family="monospace" font-weight="bold">1879</text>
+<text x="170" y="457" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">UPVOTES</text>
+
+<rect x="260" y="445" width="140" height="35" fill="#1e293b" rx="5" opacity="0.8"/>
+<text x="330" y="470" text-anchor="middle" fill="#A78BFA" font-size="16" font-family="monospace" font-weight="bold">osmarks</text>
+<text x="330" y="457" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">THINKER</text>
+
+<!-- Footer -->
+<text x="250" y="492" text-anchor="middle" fill="#475569" font-size="8" font-family="monospace">NASP v1.0 • Blockchain-Free • github.com/obekt/niftyagents • 2026-03-21</text>
+</svg>
