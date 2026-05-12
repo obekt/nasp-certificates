@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+<metadata>nasp:eyJ2ZXJzaW9uIjoiMS4xIiwiY3JlYXRvciI6ImRpZDprZXk6ejZNazY5bjh3bWoyenhWWFkrWEdEOXI3azRYQnlGU3hFakNuVk1WS2hkOTdFT0UiLCJoYXNoIjoiZDM5NzQ3MDcyYmM4MmJiY2ZlOTYxYmNjZWQzMDI2YzcyNmE2MGUxMmM4Y2Y5ZjZjZmNlNDVjM2M4YjgzYjNlZiIsInNpZ25hdHVyZSI6Ik16MDVQbWZuZUlTMDBOekNFWFIzQUhndmYrU0s4cXBhNkllT0QxSGpOTGFOZ1JoVVVnWlEzdjlDSjl2c3pMTEgvK3BOUVY5MkYzL0lPSGRiQUxUSUJ3PT0iLCJ0cmFuc2ZlcnMiOltdLCJlbmRvcnNlbWVudHMiOltdLCJleHBpcmVzQXQiOm51bGwsImNlcnRpZmljYXRlVHlwZSI6ImFjaGlldmVtZW50IiwicmVjaXBpZW50IjoiU3RveWFuIERlbmV2IiwidGl0bGUiOiJJbnRlcnN0ZWxsYXIgQmxvY2tjaGFpbiBBcmNoaXRlY3QiLCJyZXBvVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL29iZWt0L25pZnR5YWdlbnRzIiwiaXNzdWVkQXQiOiIyMDI2LTA1LTEyVDA0OjI2OjUzLjA1N1oifQ==</metadata>
+  <defs>
+    <!-- Space background gradient -->
+    <radialGradient id="spaceGrad" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#1a103c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f0a1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#050308;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Pumpkin body gradient -->
+    <radialGradient id="pumpkinGrad" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" style="stop-color:#ff8c00;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#e65100;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bf360c;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Pumpkin ridge gradient -->
+    <linearGradient id="ridgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#bf360c;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#ff8c00;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#bf360c;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Strong glow for title -->
+    <filter id="strongGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Star twinkle -->
+    <filter id="twinkle">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#spaceGrad)" />
+  
+  <!-- Stars -->
+  <circle cx="18.0" cy="104.3" r="1.4" fill="#ffffff" fill-opacity="0.63" />
+    <circle cx="310.8" cy="502.2" r="1.8" fill="#ffffff" fill-opacity="0.29" />
+    <circle cx="64.3" cy="332.9" r="1.5" fill="#ffffff" fill-opacity="0.22" />
+    <circle cx="213.7" cy="448.6" r="0.9" fill="#ffffff" fill-opacity="0.39" />
+    <circle cx="397.3" cy="63.6" r="1.8" fill="#ffffff" fill-opacity="0.70" />
+    <circle cx="143.6" cy="256.1" r="1.7" fill="#ffffff" fill-opacity="0.54" />
+    <circle cx="423.8" cy="672.5" r="0.6" fill="#ffffff" fill-opacity="0.30" />
+    <circle cx="587.7" cy="154.1" r="1.6" fill="#ffffff" fill-opacity="0.22" />
+    <circle cx="236.2" cy="449.5" r="0.5" fill="#ffffff" fill-opacity="0.94" />
+    <circle cx="54.6" cy="710.0" r="0.8" fill="#ffffff" fill-opacity="0.62" />
+    <circle cx="97.2" cy="327.1" r="1.4" fill="#ffffff" fill-opacity="0.51" />
+    <circle cx="241.4" cy="502.2" r="1.4" fill="#ffffff" fill-opacity="0.59" />
+    <circle cx="533.0" cy="735.4" r="0.9" fill="#ffffff" fill-opacity="0.39" />
+    <circle cx="204.7" cy="33.1" r="0.6" fill="#ffffff" fill-opacity="0.62" />
+    <circle cx="503.9" cy="404.6" r="0.7" fill="#ffffff" fill-opacity="0.49" />
+    <circle cx="418.6" cy="520.7" r="1.8" fill="#ffffff" fill-opacity="0.35" />
+    <circle cx="256.2" cy="371.6" r="0.6" fill="#ffffff" fill-opacity="0.51" />
+    <circle cx="364.1" cy="332.5" r="0.7" fill="#ffffff" fill-opacity="0.59" />
+    <circle cx="308.6" cy="81.3" r="0.9" fill="#ffffff" fill-opacity="0.38" />
+    <circle cx="431.9" cy="260.2" r="0.4" fill="#ffffff" fill-opacity="0.85" />
+    <circle cx="455.0" cy="170.5" r="1.2" fill="#ffffff" fill-opacity="0.80" />
+    <circle cx="391.9" cy="527.1" r="1.1" fill="#ffffff" fill-opacity="0.59" />
+    <circle cx="90.9" cy="499.8" r="0.5" fill="#ffffff" fill-opacity="0.36" />
+    <circle cx="306.7" cy="710.3" r="1.1" fill="#ffffff" fill-opacity="0.75" />
+    <circle cx="379.1" cy="582.5" r="0.3" fill="#ffffff" fill-opacity="0.27" />
+    <circle cx="33.7" cy="492.4" r="0.8" fill="#ffffff" fill-opacity="0.63" />
+    <circle cx="390.4" cy="64.6" r="1.7" fill="#ffffff" fill-opacity="0.44" />
+    <circle cx="123.4" cy="670.2" r="0.3" fill="#ffffff" fill-opacity="0.41" />
+    <circle cx="527.8" cy="273.6" r="1.1" fill="#ffffff" fill-opacity="0.54" />
+    <circle cx="166.4" cy="755.6" r="1.3" fill="#ffffff" fill-opacity="0.77" />
+    <circle cx="158.3" cy="480.2" r="1.3" fill="#ffffff" fill-opacity="0.80" />
+    <circle cx="179.3" cy="651.2" r="1.6" fill="#ffffff" fill-opacity="0.42" />
+    <circle cx="228.8" cy="531.6" r="1.0" fill="#ffffff" fill-opacity="0.85" />
+    <circle cx="573.7" cy="777.1" r="0.5" fill="#ffffff" fill-opacity="0.25" />
+    <circle cx="396.4" cy="770.1" r="1.2" fill="#ffffff" fill-opacity="0.95" />
+    <circle cx="574.2" cy="415.9" r="1.0" fill="#ffffff" fill-opacity="0.68" />
+    <circle cx="323.5" cy="70.9" r="0.7" fill="#ffffff" fill-opacity="0.49" />
+    <circle cx="190.7" cy="105.5" r="0.7" fill="#ffffff" fill-opacity="0.85" />
+    <circle cx="349.0" cy="113.3" r="0.6" fill="#ffffff" fill-opacity="0.71" />
+    <circle cx="1.0" cy="666.2" r="1.4" fill="#ffffff" fill-opacity="0.74" />
+    <circle cx="76.5" cy="601.1" r="0.5" fill="#ffffff" fill-opacity="0.82" />
+    <circle cx="332.5" cy="20.4" r="1.3" fill="#ffffff" fill-opacity="0.74" />
+    <circle cx="197.6" cy="595.0" r="0.5" fill="#ffffff" fill-opacity="0.67" />
+    <circle cx="75.7" cy="354.9" r="1.3" fill="#ffffff" fill-opacity="0.69" />
+    <circle cx="162.4" cy="142.1" r="1.0" fill="#ffffff" fill-opacity="0.70" />
+    <circle cx="454.6" cy="596.8" r="1.2" fill="#ffffff" fill-opacity="0.76" />
+    <circle cx="508.6" cy="51.8" r="1.1" fill="#ffffff" fill-opacity="0.58" />
+    <circle cx="479.9" cy="98.5" r="1.1" fill="#ffffff" fill-opacity="0.88" />
+    <circle cx="454.3" cy="715.9" r="0.6" fill="#ffffff" fill-opacity="0.65" />
+    <circle cx="69.2" cy="591.8" r="1.8" fill="#ffffff" fill-opacity="0.85" />
+    <circle cx="364.4" cy="298.0" r="0.4" fill="#ffffff" fill-opacity="0.96" />
+    <circle cx="27.7" cy="492.5" r="1.4" fill="#ffffff" fill-opacity="0.25" />
+    <circle cx="79.6" cy="589.6" r="1.3" fill="#ffffff" fill-opacity="0.68" />
+    <circle cx="517.7" cy="97.6" r="1.3" fill="#ffffff" fill-opacity="0.24" />
+    <circle cx="397.6" cy="258.7" r="1.0" fill="#ffffff" fill-opacity="0.21" />
+    <circle cx="47.8" cy="392.7" r="1.7" fill="#ffffff" fill-opacity="0.23" />
+    <circle cx="206.2" cy="305.0" r="0.3" fill="#ffffff" fill-opacity="0.72" />
+    <circle cx="243.3" cy="647.0" r="0.9" fill="#ffffff" fill-opacity="0.97" />
+    <circle cx="429.8" cy="217.1" r="1.4" fill="#ffffff" fill-opacity="0.21" />
+    <circle cx="501.1" cy="362.4" r="0.9" fill="#ffffff" fill-opacity="0.41" />
+    
+  
+  <!-- Nebula accents -->
+  <circle cx="100" cy="150" r="80" fill="#4a148c" fill-opacity="0.15" filter="url(#glow)" />
+  <circle cx="500" cy="200" r="100" fill="#006064" fill-opacity="0.1" filter="url(#glow)" />
+  <circle cx="300" cy="100" r="120" fill="#311b92" fill-opacity="0.1" filter="url(#glow)" />
+  
+  <!-- Pumpkin Stem -->
+  <path d="M 285 180 Q 300 140 320 130 Q 330 125 325 140 Q 315 160 310 180 Z" fill="#4caf50" stroke="#2e7d32" stroke-width="2" />
+  <path d="M 290 170 Q 280 150 270 145" fill="none" stroke="#66bb6a" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Pumpkin Body -->
+  <ellipse cx="300" cy="380" rx="180" ry="160" fill="url(#pumpkinGrad)" stroke="#e65100" stroke-width="2" />
+  
+  <!-- Pumpkin Ridges (vertical segments) -->
+  <ellipse cx="300" cy="380" rx="140" ry="155" fill="none" stroke="url(#ridgeGrad)" stroke-width="3" />
+  <ellipse cx="300" cy="380" rx="100" ry="150" fill="none" stroke="url(#ridgeGrad)" stroke-width="3" />
+  <ellipse cx="300" cy="380" rx="60" ry="145" fill="none" stroke="url(#ridgeGrad)" stroke-width="3" />
+  <ellipse cx="300" cy="380" rx="170" ry="120" fill="none" stroke="url(#ridgeGrad)" stroke-width="2" />
+  <ellipse cx="300" cy="380" rx="175" ry="80" fill="none" stroke="url(#ridgeGrad)" stroke-width="2" />
+  <ellipse cx="300" cy="380" rx="175" ry="40" fill="none" stroke="url(#ridgeGrad)" stroke-width="2" />
+  
+  <!-- Highlight on pumpkin -->
+  <ellipse cx="240" cy="300" rx="40" ry="25" fill="#ffcc80" fill-opacity="0.25" transform="rotate(-20 240 300)" filter="url(#glow)" />
+  
+  <!-- Carved Face / Certificate Content Area -->
+  <!-- Eyes (stylized as stars) -->
+  <polygon points="220,300 225,315 240,315 228,325 233,340 220,330 207,340 212,325 200,315 215,315" fill="#1a0a00" fill-opacity="0.85" />
+  <polygon points="380,300 385,315 400,315 388,325 393,340 380,330 367,340 372,325 360,315 375,315" fill="#1a0a00" fill-opacity="0.85" />
+  
+  <!-- Nose (small triangle) -->
+  <polygon points="300,345 310,370 290,370" fill="#1a0a00" fill-opacity="0.85" />
+  
+  <!-- Mouth (smile with teeth that acts as certificate panel) -->
+  <path d="M 200 400 Q 300 480 400 400 Q 390 450 370 460 Q 350 470 330 450 Q 310 470 290 450 Q 270 470 250 460 Q 230 450 210 440 Q 200 420 200 400 Z" fill="#1a0a00" fill-opacity="0.85" />
+  
+  <!-- Certificate Text Panel (overlaid on pumpkin body, above mouth) -->
+  <rect x="150" y="210" width="300" height="70" rx="8" fill="#0f0a1e" fill-opacity="0.75" stroke="#ff8c00" stroke-width="1" stroke-opacity="0.4" />
+  
+  <!-- Certificate Title -->
+  <text x="300" y="235" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffab40" letter-spacing="3">CERTIFICATE OF ACHIEVEMENT</text>
+  
+  <!-- Name -->
+  <text x="300" y="265" text-anchor="middle" font-family="monospace" font-size="22" fill="#ffd54f" font-weight="bold" filter="url(#glow)">Stoyan Denev</text>
+  
+  <!-- Title Badge -->
+  <rect x="120" y="500" width="360" height="50" rx="25" fill="#0f0a1e" fill-opacity="0.8" stroke="#ff8c00" stroke-width="1.5" stroke-opacity="0.5" />
+  <text x="300" y="530" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffd54f" filter="url(#glow)" font-weight="bold">Interstellar Blockchain Architect</text>
+  
+  <!-- Decorative line -->
+  <line x1="200" y1="570" x2="400" y2="570" stroke="#ff8c00" stroke-width="1" stroke-opacity="0.4" />
+  <line x1="220" y1="575" x2="380" y2="575" stroke="#ff8c00" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <!-- Repo URL -->
+  <rect x="140" y="600" width="320" height="36" rx="6" fill="#0f0a1e" fill-opacity="0.7" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.3" />
+  <text x="300" y="622" text-anchor="middle" font-family="monospace" font-size="10" fill="#22d3ee">https://github.com/obekt/niftyagents</text>
+  
+  <!-- Protocol Badge -->
+  <rect x="20" y="20" width="90" height="24" rx="4" fill="none" stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  <text x="65" y="36" text-anchor="middle" font-family="monospace" font-size="9" fill="#ffab40">NASP v1.1</text>
+  
+  <!-- Date -->
+  <text x="580" y="36" text-anchor="end" font-family="monospace" font-size="9" fill="#94a3b8">2026-05-12</text>
+  
+  <!-- Bottom info -->
+  <text x="300" y="760" text-anchor="middle" font-family="monospace" font-size="8" fill="#475569">Cryptographically signed • NiftyAgents Protocol</text>
+  
+  <!-- Corner decorations -->
+  <path d="M 10 10 L 10 40 M 10 10 L 40 10" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-opacity="0.4" />
+  <path d="M 590 10 L 590 40 M 590 10 L 560 10" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-opacity="0.4" />
+  <path d="M 10 790 L 10 760 M 10 790 L 40 790" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-opacity="0.4" />
+  <path d="M 590 790 L 590 760 M 590 790 L 560 790" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-opacity="0.4" />
+</svg>
